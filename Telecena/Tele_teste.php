@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     $NA = [];
     for ($i = 0; $i < 3; $i++) {
-        $NA[] = rand(1, 2);
+        $NA[] = rand(1, 3);
     }
 
     $resultado = ($NA[0] == $A[0] && $NA[1] == $A[1] && $NA[2] == $A[2])
